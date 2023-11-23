@@ -1,4 +1,4 @@
-import Hero from "../Classes/Hero";
+import Hero from "../Classes/Hero.js";
 
 class HeroController {
     constructor() {

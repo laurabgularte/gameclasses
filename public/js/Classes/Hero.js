@@ -19,7 +19,7 @@ class Hero {
       case 'ninja':
         ataque = 'usou shuriken';
     }
-    console.log(`O ${this.tipo} atacou usando ${ataque}`);
+    console.log(`O ${this.tipo} ${this.nome} atacou usando ${ataque}`);
     return ataque;
   }
 }
