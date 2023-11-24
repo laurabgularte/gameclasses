@@ -33,3 +33,30 @@ Ao final deve se exibir uma mensagem:
 - "o {tipo} atacou usando {ataque}"
   ex: mago atacou usando magia
   guerreiro atacou usando espada
+
+
+## Usage
+
+```
+//install node_modules if you want to build a CSS file with Tailwind CSS
+$ npm install
+
+//start watching to automatically rebuild a CSS file
+$ npx tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch
+
+// install http-server to use js modules without CORS errors (run with sudo)
+$ npm install -g http-server
+
+// run http-server in 8080
+$ http-server
+```
+
+## Used Technologies
+
+The project was developed using the following technologies:
+
+- **Programming Language:** [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+- **Styling:** [TailwindCSS](https://tailwindcss.com/)
+
+- **Dev Server:** [http-server](https://www.npmjs.com/package/http-server)
